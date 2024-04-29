@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main-container">
+        <fieldset>
+            <legend><h1>Dice <i class="fa-solid fa-dice"></i> Game
+            </h1></legend>
+            <input type="text" placeholder="Enter Dice Numberr" id="input" maxlength="1">
+            <h1 id="h1">Dice Number</h1>
+            <h2 id="h2"></h2>
+            <button onclick="yourluck()">Try Your Luck</button>
+            
+            <button onclick="playagain()">Play Again</button>
+            <li>Round Count :<span id="roundcounter"></span></li>
+            <li>Win Count : <span id="wincounter"></span></li>
+
+
+        </fieldset>
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/5db65c16e2.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
